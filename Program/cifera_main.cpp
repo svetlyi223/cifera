@@ -1,34 +1,23 @@
 #include "cifera_head.h"
 
 // Elon Musks' keys to success = 🔑🔑🔑🔑🔑🔑🔑🔑
-int k_wood = 6;  // every morning 🥀
-int k_altCC = 7; // The Ides of March 🔪
-int k_exohr_1[11][8] = {        // Pandemonium Door 15
-    {0, 1, 1, 1, 0, 0, 0, 0},
+int k_wood = 0;  // every morning 🥀 (Pozitive number)
+int k_altCC = 0; // The Ides of March 🔪 (Same here)
+int k_exohr_1[/*Write Size Here*/][8] = {    // (Declare a key for the XOR here. ALse specify size in matrix)
+  /*{0, 1, 1, 1, 0, 0, 0, 0},
     {0, 1, 1, 0, 0, 0, 0, 1},
-    {0, 1, 1, 0, 1, 1, 1, 0},
-    {0, 1, 1, 0, 0, 1, 0, 0},
-    {0, 1, 1, 0, 0, 1, 0, 1},
-    {0, 1, 1, 0, 1, 1, 0, 1},
-    {0, 1, 1, 0, 1, 1, 1, 1},
-    {0, 1, 1, 0, 1, 1, 1, 0},
-    {0, 1, 1, 0, 1, 0, 0, 1},
-    {0, 1, 1, 1, 0, 1, 0, 1},
-    {0, 1, 1, 0, 1, 1, 0, 1}
+    .
+    .
+    .
+    */
 };
-int k_exohr_2[12][8] = {         // What kind of Key is this? idfk
-    {0, 1, 0, 0, 0, 1, 0, 0},
-    {0, 1, 1, 1, 1, 1, 1, 0},
-    {0, 1, 1, 0, 1, 1, 1, 1},
-    {0, 1, 0, 1, 1, 1, 1, 1},
-    {0, 1, 0, 1, 0, 1, 0, 0},
-    {0, 1, 1, 1, 0, 0, 1, 0},
-    {0, 1, 1, 0, 1, 0, 0, 1},
-    {0, 1, 1, 0, 0, 0, 1, 1},
-    {0, 1, 1, 0, 1, 0, 1, 1},
-    {0, 1, 1, 0, 0, 1, 0, 1},
-    {0, 1, 1, 1, 0, 0, 1, 0},
-    {0, 1, 1, 1, 1, 0, 0, 1}
+int k_exohr_2[/*Write Size Here*/][8] = {    // What kind of Key is this? idfk (Same here)
+    /*{0, 1, 1, 1, 0, 0, 0, 0},
+    {0, 1, 1, 0, 0, 0, 0, 1},
+    .
+    .
+    .
+    */
 };
 
 void encrypt() {
