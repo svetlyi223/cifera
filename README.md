@@ -19,7 +19,7 @@ git clone https://github.com/svetlyi223/cifera.git
 cd cifera
 ```
 
-Make sure you have `make` and `OpenSSL` installed. (Im gonna add the commands later. my ass gon be late for courses😭)
+Make sure you have `make` and `OpenSSL` installed:
 
 ### Linux
 
@@ -67,4 +67,5 @@ If you ran make once, you can just directly run the executable next time (unless
 
 ## Random Q/A
 Q: Was all the time wasted worth it?
+
 A: Nah
