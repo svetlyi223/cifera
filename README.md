@@ -33,4 +33,4 @@ If you ran make once, you can just directly run the executable next time:
 ./cifera
 ```
 
-Fonts got me crying 😭😭😭
+These fonts got me crying 😭😭😭
